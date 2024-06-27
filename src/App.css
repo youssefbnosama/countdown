@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App{
+    background-color: hsl(234, 17%, 12%);
+}
+.stars{
+    background-image: url(./images/bg-stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.mountain{
+    background-image: url(./images/pattern-hills.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.par div div{
+    color: hsl(345, 95%, 68%);
+    background-color:  hsl(236, 21%, 26%);
+    padding: 1.5rem;
+    width: fit-content;
+    border-radius: 5px;
+}
+ul{
+    z-index: 2;
+}
